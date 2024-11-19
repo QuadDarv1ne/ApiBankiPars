@@ -42,19 +42,19 @@ Aiosqlite позволяет работать с базой данных без 
 
 ## Запуск проекта
 
-1. Клонируйте репозиторий:
+1. **Клонируйте репозиторий:**
     ```bash
     git clone https://github.com/Yakvenalex/ApiBankiPars.git
     cd ApiBankiPars
     ```
 
-2. Установите зависимости:
+2. **Установите зависимости:**
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Запустите сервер:
+3. **Запустите сервер:**
     ```bash
     uvicorn app:app --reload
     ```
-Работающий проект (документация): https://bankiru-yakvenalex.amvera.io/docs
+**Работающий проект (документация):** `https://bankiru-yakvenalex.amvera.io/docs`
