@@ -57,10 +57,9 @@ app.mount('/static', StaticFiles(directory='app/static'), name='static')
 @app.get("/")
 def home_page():
     return {
-        "message": "Добро пожаловать! Пусть эта заготовка станет удобным инструментом для вашей работы и "
-                   "приносит вам пользу!"
+        "message": "Добро пожаловать. Пусть эта заготовка станет удобным инструментом для вашей работы и "
+                   "приносит вам пользу."
     }
-
 
 app.include_router(router_auth)
 app.include_router(router_api)
